@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/maininterface_drawerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+
+
+    <include
+        layout="@layout/layout_appdisplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="@color/menucolor"
+        app:headerLayout="@layout/layout_main_drawerhead"
+        app:menu="@menu/drawermenu"
+        >
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>
+
+    <!--
+
+               app:tabMode="scrollable" 设置tabMode属性为可以滚动
+               tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
+               android design library提供的TabLayout控件
+               tabIndicatorColor：菜单下方移动的横线的颜色
+               tabSelectedTextColor ：菜单被选中之后的颜色
+               tabTextColor : 菜单正常的颜色
+               app:tabTextAppearance : 添加样式，这里加了样式主要是为了在文字前面加一个图所用，就是把textAllCaps设置成false
+           -->
+
+<!--TabLayout也支持当作ViewPager的装饰来使用，
+通过在布局中直接把它添加到ViewPager的内部
+（将自动将ViewPager的标题作为TabLayout的Tab）。 -->

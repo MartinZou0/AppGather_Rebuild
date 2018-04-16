@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AppGather_Rebuild</string>
+    <string name="app_portrait">云集</string>
+    <string name="loginhint1">请输入手机号</string>
+    <string name="loginhint2">请输入密码</string>
+    <string name="findpwd">找回密码</string>
+    <string name="register">注册云集</string>
+    <string name="login">登录</string>
+    <string name="registername_hint">请输入您的昵称(十个字以内)</string>
+    <string name="registertel_hint">请输入注册手机号</string>
+    <string name="registerpwd_hint">请输入需要设置的密码(不超过15位)</string>
+    <string name="securitycodenote">我们已经发送了验证码到你的手机:</string>
+    <string name="resendcode">重新获取验证码</string>
+    <string name="newitemgroup">新建分组</string>
+    <string name="dialogloadingContent">正在加载数据，请稍后</string>
+    <string name="menu_text_person">个人中心</string>
+    <string name="tv_appstore">应用商店</string>
+    <string name="menu_appmanage">应用管理</string>
+    <string name="menu_exit">退出</string>
+    <string name="userinformation">个人信息</string>
+    <string name="changenickname">修改昵称</string>
+    <string name="changeuserpwd">修改密码</string>
+    <string name="changeinfor">修改个人信息</string>
+    <string name="synchronize">同步个人信息</string>
+    <string name="deletedata">删除云端数据</string>
+    <string name="appname">云集2</string>
+    <string name="noselcteditem_title">未添加分类</string>
+    <string name="select_item_title">已添加分类</string>
+    <string name="ok">完成</string>
+    <string name="customclassify">自定义分类</string>
+</resources>
